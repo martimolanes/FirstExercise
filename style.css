@@ -1,4 +1,6 @@
 body {
+    background-color: #000000;
+    color: #FFFFFF;
     font-family: Arial, sans-serif;
 }
 
@@ -7,9 +9,50 @@ body {
     margin-top: 50px;
 }
 
+nav {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    background-color: #333333;
+    text-align: center;
+}
+
+nav ul {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    padding: 0 20px;
+}
+
+li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
 #actionButton {
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
+  background-color: transparent;
+  border: 2px solid #2B2B2B;
+  border-radius: 15px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  width: fit-content;
+}
+
+#actionButton:hover {
+  color: #fff;
+  background-color: #2B2B2B;
 }

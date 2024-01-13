@@ -1,3 +1,14 @@
+const date = document.querySelector('.date');
+
+date.textContent = new Date().getFullYear();
+
 document.getElementById("actionButton").addEventListener("click", function() {
-    alert("Button clicked!");
-});
+    const p = document.querySelector('#description');
+    if (p.style.visibility === 'hidden') {
+        p.style.visibility = 'visible';
+    } else {
+        p.style.visibility = 'hidden';
+    }
+})
+
+
